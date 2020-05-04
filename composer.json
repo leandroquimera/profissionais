@@ -11,5 +11,12 @@
     "minimum-stability": "stable",
     "require": {
         "symfony/var-dumper": "^5.0"
+    },
+
+    "autoload": {
+        "files": [
+            "app/_apoio/paginas.php"
+        ]
     }
+
 }

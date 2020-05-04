@@ -13,9 +13,73 @@ require __DIR__.'/vendor/autoload.php';
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="app/_css/standard.css">
   </head>
   <body>
-    <h1>Olá, mundo!!</h1>
+    <div class="jumbotron text-center bg-dark text-white" style="margin-bottom:0">
+        <h1>QUIMERA Adm.Soluções em Informática</h1>
+    </div>
+    <div class="container-fluid bg-dark">
+        <!--Inicio do NAVBAR  navbar navbar-default navbar-fixed-top  // navbar-default navbar-fixed-top -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <a class="navbar-brand" href="index.php">
+                <img src="_img/logo_navbar_001.png" width="40" height="38" alt="" srcset="">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profissionais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Redes Sociais</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="https://bit.ly/2VAaAlN" target="_blank">Facebook</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">linkedin</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Fim do NAVBAR-->
+    </div>
+    <div class="container bg-dark text-white pt-3 pb-4">
+        <?php
+
+		  	try {
+
+                require_once load();
+			  } catch (Exception $err){
+
+				echo $err->getMessage();
+			  }
+
+          ?>
+    </div>
+
+
+
+
+
+
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
