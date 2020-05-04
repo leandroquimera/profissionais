@@ -3,8 +3,7 @@
     // Passe o mouse para ver as descrições dos atributos existentes.
     // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
-        
+    "configurations": [    
         {
             "name": "Listen for XDebug",
             "type": "php",

@@ -22,8 +22,8 @@ require __DIR__.'/vendor/autoload.php';
     <div class="container-fluid bg-dark">
         <!--Inicio do NAVBAR  navbar navbar-default navbar-fixed-top  // navbar-default navbar-fixed-top -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
-            <a class="navbar-brand" href="index.php">
-                <img src="_img/logo_navbar_001.png" width="40" height="38" alt="" srcset="">
+            <a class="navbar-brand" href="?paginas=home">
+                <img src="app/_img/logo_navbar_001.png" width="40" height="38" alt="" srcset="">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -31,19 +31,19 @@ require __DIR__.'/vendor/autoload.php';
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="?_paginas=home">Início <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link" href="?_paginas=home">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Parceiros</a>
+                        <a class="nav-link" href="?_paginas=home">Parceiros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Profissionais</a>
+                        <a class="nav-link" href="?_paginas=profissionais">Profissionais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="?_paginas=home">Contato</a>
                     </li>
 
 
