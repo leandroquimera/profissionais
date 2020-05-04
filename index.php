@@ -16,8 +16,22 @@ require __DIR__.'/vendor/autoload.php';
     <link rel="stylesheet" type="text/css" href="app/_css/standard.css">
   </head>
   <body>
-    <div class="jumbotron text-center bg-dark text-white" style="margin-bottom:0">
-        <h1>QUIMERA Adm.Soluções em Informática</h1>
+    <div class="jumbotron bg-dark text-white" style="margin-bottom:0">
+        <div class="container">
+            <div class="row" id="topoinic">
+                <div class="col-2">
+                    <img src="" alt="LOGO" witdh="150px" height="150px" srcset="">
+                </div>
+                <div class="col-8 mt-3 text-center">
+                    <div class="nameQ"><p>QUIMERA</p></div>
+                    <div class="subnameQ">Administração e Soluções em Informática</div>
+                </div>
+                <div class="col-2">
+                    <img src="" alt="QR-Code" witdh="150px" height="150px" srcset="">
+                </div>
+                
+            </div>
+        </div>
     </div>
     <div class="container-fluid bg-dark">
         <!--Inicio do NAVBAR  navbar navbar-default navbar-fixed-top  // navbar-default navbar-fixed-top -->
