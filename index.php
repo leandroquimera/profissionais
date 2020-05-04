@@ -20,14 +20,14 @@ require __DIR__.'/vendor/autoload.php';
         <div class="container">
             <div class="row" id="topoinic">
                 <div class="col-2">
-                    <img src="" alt="LOGO" witdh="150px" height="150px" srcset="">
+                    <img src="app/_img/logo_inicial_sem_fundo.png" alt="LOGO" witdh="150px" height="150px" srcset="">
                 </div>
-                <div class="col-8 mt-3 text-center">
+                <div class="col-8 text-center">
                     <div class="nameQ"><p>QUIMERA</p></div>
                     <div class="subnameQ">Administração e Soluções em Informática</div>
                 </div>
                 <div class="col-2">
-                    <img src="" alt="QR-Code" witdh="150px" height="150px" srcset="">
+                    <img src="app/_img/qr_code_quimera_leandro.png" alt="QR-Code" witdh="150px" height="150px" srcset="">
                 </div>
                 
             </div>
@@ -36,7 +36,7 @@ require __DIR__.'/vendor/autoload.php';
     <div class="container-fluid bg-dark">
         <!--Inicio do NAVBAR  navbar navbar-default navbar-fixed-top  // navbar-default navbar-fixed-top -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
-            <a class="navbar-brand" href="?paginas=home">
+            <a class="navbar-brand" href="?_paginas=home">
                 <img src="app/_img/logo_navbar_001.png" width="40" height="38" alt="" srcset="">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
