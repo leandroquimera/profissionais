@@ -17,9 +17,22 @@ body{
 
 }
 
+.jumbotron{
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+h1 {
+	font-family: Caesar;
+	text-align: center;
+    font-size: 30pt;
+    border: solid 5px red;
+}
+
+
 #topoinic{
     background-color: #F1F1F3;
-    padding: 5px;
+    padding: 2px;
     font-family: Caesar;
     border: 3px solid blue;
     border-radius: 15px;

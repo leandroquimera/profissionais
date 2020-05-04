@@ -16,7 +16,7 @@ require __DIR__.'/vendor/autoload.php';
     <link rel="stylesheet" type="text/css" href="app/_css/standard.css">
   </head>
   <body>
-    <div class="jumbotron bg-dark text-white" style="margin-bottom:0">
+    <div class="jumbotron bg-dark text-white">
         <div class="container">
             <div class="row" id="topoinic">
                 <div class="col-2">
@@ -37,7 +37,7 @@ require __DIR__.'/vendor/autoload.php';
         <!--Inicio do NAVBAR  navbar navbar-default navbar-fixed-top  // navbar-default navbar-fixed-top -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
             <a class="navbar-brand" href="?_paginas=home">
-                <img src="app/_img/logo_navbar_001.png" width="40" height="38" alt="" srcset="">
+                <img src="app/_img/logo_navbar_001_b.png" width="40" height="38" alt="" srcset="">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -48,10 +48,10 @@ require __DIR__.'/vendor/autoload.php';
                         <a class="nav-link" href="?_paginas=home">Início <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?_paginas=home">Serviços</a>
+                        <a class="nav-link" href="?_paginas=servicos">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?_paginas=home">Parceiros</a>
+                        <a class="nav-link" href="?_paginas=parceiros">Parceiros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="?_paginas=profissionais">Profissionais</a>
