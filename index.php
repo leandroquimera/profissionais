@@ -57,7 +57,7 @@ require __DIR__.'/vendor/autoload.php';
                         <a class="nav-link" href="?_paginas=profissionais">Profissionais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="?_paginas=home">Contato</a>
+                        <a class="nav-link" href="?_paginas=contato">Contato</a>
                     </li>
 
 
