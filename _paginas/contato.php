@@ -38,9 +38,9 @@
             <div class="form-group p-3 mb-2 bg-light text-dark border-radius">
                 <label for="">Prioridade: </label>
                 <div class="row">
-                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="alta"><label for="alta"><strong>ALTA</strong></label></div>
-                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="media"><label for="media"><strong>Média</strong></label></div>
-                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="baixa" checked><label for="baixa"><strong>baixa</strong> </label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="alta"><label for="alta"><strong> ALTA</strong></label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="media"><label for="media"><strong> Média</strong></label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="baixa" checked><label for="baixa"><strong> baixa</strong> </label></div>
                 </div>
             </div>
 
