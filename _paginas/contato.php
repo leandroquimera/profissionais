@@ -1,24 +1,21 @@
 <?//=resgatamensage('avisausuario'); / tem que ser o mesmo do trataemail criamensage primeiro parametro?>
 
 <div class="row">
-<!--
-    <div class="col-md-4">
 
-        <div class="card">
-            <img class="card-img-top img-responsive mt-5" src="" alt="Logo da empresa" style="width:130px;height:120px;">
-            <br>
+    <div class="col-md-4 contatolms">
+
+        <div class="card text-dark">
+            <img class="card-img-top" src="app/_img/qr_code_quimera_leandro.png" alt="Logo da empresa">
             <div class="card-body">
                 <p class="card-text mb-3"><strong>Leandro Marques</strong></p>
                 <p class="card-text">Rua: Christian Heins</p>
                 <p class="card-text">Jd.Satélite - Interlagos - Zona Sul</p>
                 <p class="card-text">São Paulo - SP - Brasil - 04815-190</p>
-                <p class="cart-text">(11) 9 4028-6850</p>
-
             </div>
         </div>
 
     </div>
--->
+
     <div class="col-md-8">
 
         <form method="POST" action="_function/trataemail.php" role="form">
@@ -32,13 +29,19 @@
                 <label for="">E-mail:</label>
                 <input type="email" class="form-control" name="email" id="" placeholder="Digite seu e-mail...">
             </div>
-
-            
-
          
             <div class="form-group">
                 <label for="">Assunto:</label>
                 <input type="subject " class="form-control" name="assunto" id="" placeholder="Digite um assunto...">
+            </div>
+
+            <div class="form-group p-3 mb-2 bg-light text-dark border-radius">
+                <label for="">Prioridade: </label>
+                <div class="row">
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="alta"><label for="alta"><strong>ALTA</strong></label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="media"><label for="media"><strong>Média</strong></label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="baixa" checked><label for="baixa"><strong>baixa</strong> </label></div>
+                </div>
             </div>
 
             <div class="form-group">
