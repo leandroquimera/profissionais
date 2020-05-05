@@ -35,12 +35,12 @@
                 <input type="subject " class="form-control" name="assunto" id="" placeholder="Digite um assunto...">
             </div>
 
-            <div class="form-group p-3 mb-2 bg-light text-dark border-radius">
+            <div class="form-group">
                 <label for="">Prioridade: </label>
-                <div class="row">
-                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="alta"><label for="alta"><strong> ALTA</strong></label></div>
-                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="media"><label for="media"><strong> Média</strong></label></div>
-                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="baixa" checked><label for="baixa"><strong> baixa</strong> </label></div>
+                <div class="row linhacontato bg-light text-dark">
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="alta"><label for="alta"><strong>&nbsp;&nbsp;ALTA</strong></label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="media"><label for="media"><strong>&nbsp;Média</strong></label></div>
+                    <div class="col-md-2"><input type="radio" name="prioridade" id="" value="baixa" checked><label for="baixa"><strong>&nbsp;baixa</strong></label></div>
                 </div>
             </div>
 
