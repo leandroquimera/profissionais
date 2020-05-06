@@ -1,22 +1,18 @@
 {
     "name": "leandro/profissionais",
-    "description": "Criaçao do sistema de cadastro de profissionais da saude",
-    "license": "MIT",
     "authors": [
         {
             "name": "LEANDRO MARQUES DA SILVA",
             "email": "leandrostar.01@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {
-        "symfony/var-dumper": "^5.0"
-    },
-
     "autoload": {
         "files": [
-            "app/_apoio/paginas.php"
+            "app/_apoio/paginas.php",
+            "_function/custom.php"
         ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1.0"
     }
-
 }

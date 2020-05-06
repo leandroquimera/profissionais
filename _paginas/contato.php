@@ -18,7 +18,7 @@
 
     <div class="col-md-8">
 
-        <form method="POST" action="_function/trataemail.php" role="form">
+        <form method="POST" action="_paginas/_contato/trataemail.php" role="form">
 
             <div class="form-group">
                 <label for="">Nome:</label>
