@@ -5,7 +5,7 @@
     <div class="col-md-4 contatolms">
 
         <div class="card text-dark">
-            <img class="card-img-top" src="app/_img/qr_code_quimera_leandro.png" alt="Logo da empresa">
+            <img class="card-img-top" src="_img/qr_code_quimera_leandro.png" alt="Logo da empresa">
             <div class="card-body">
                 <p class="card-text mb-3"><strong>Leandro Marques</strong></p>
                 <p class="card-text">Rua: Christian Heins</p>
@@ -18,7 +18,7 @@
 
     <div class="col-md-8">
 
-        <form method="POST" action="_paginas/_contato/trataemail.php" role="form">
+        <form method="POST" action="#" role="form">
 
             <div class="form-group">
                 <label for="">Nome:</label>

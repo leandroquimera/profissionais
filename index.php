@@ -1,6 +1,4 @@
-<?php
-require __DIR__.'/vendor/autoload.php';
-?>
+<?php require "load.php"; ?>
 
 
 <!doctype html>
@@ -13,21 +11,21 @@ require __DIR__.'/vendor/autoload.php';
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="app/_css/standard.css">
+    <link rel="stylesheet" type="text/css" href="_css/standard.css">
   </head>
   <body>
     <div class="jumbotron bg-dark text-white">
         <div class="container">
             <div class="row" id="topoinic">
                 <div class="col-2">
-                    <img src="app/_img/logo_inicial_sem_fundo.png" alt="LOGO" witdh="150px" height="150px" srcset="">
+                    <img src="_img/logo_inicial_sem_fundo.png" alt="LOGO" witdh="150px" height="150px" srcset="">
                 </div>
                 <div class="col-8 text-center">
                     <div class="nameQ"><p>QUIMERA</p></div>
                     <div class="subnameQ">Administração e Soluções em Informática</div>
                 </div>
                 <div class="col-2">
-                    <img src="app/_img/qr_code_quimera_leandro.png" alt="QR-Code" witdh="150px" height="150px" srcset="">
+                    <img src="_img/qr_code_quimera_leandro.png" alt="QR-Code" witdh="150px" height="150px" srcset="">
                 </div>
                 
             </div>
@@ -37,7 +35,7 @@ require __DIR__.'/vendor/autoload.php';
         <!--Inicio do NAVBAR  navbar navbar-default navbar-fixed-top  // navbar-default navbar-fixed-top -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
             <a class="navbar-brand" href="?_paginas=home">
-                <img src="app/_img/logo_navbar_001_b.png" width="40" height="38" alt="" srcset="">
+                <img src="_img/logo_navbar_001_b.png" width="40" height="38" alt="" srcset="">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -81,6 +79,7 @@ require __DIR__.'/vendor/autoload.php';
 		  	try {
 
                 require_once load();
+                
 			  } catch (Exception $err){
 
 				echo $err->getMessage();

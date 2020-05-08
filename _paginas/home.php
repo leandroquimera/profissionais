@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-1">
-                    <img class="card-img-top" style="width:40px;height:40px;"  src="../../profissionais/app/_img/logo_navbar_001.png" alt="Imagem de capa do card">
+                    <img class="card-img-top" id="desafio" src="_img/logo_navbar_001.png" alt="Imagem de capa do card">
                 </div>
                 <div class="col-10 mt-2">
                     <h4 class="card-sub bg-light text-muted">Nosso desafio.</h4>              
