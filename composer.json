@@ -12,7 +12,5 @@
             "_function/custom.php"
         ]
     },
-    "require-dev": {
-        "symfony/var-dumper": "^5.1.0"
-    }
+    "require-dev": {}
 }
